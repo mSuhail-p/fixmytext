@@ -1,6 +1,6 @@
 import type { WritingMode } from '../types/writing'
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://fixmytext-1.onrender.com'
 
 export interface RewriteResponse {
   result: string
